@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>勤務情報アプリケーション</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="page">
+		<div id="header">
+			<h1>勤務情報アプリケーション</h1>
+		</div>
+		<div id="main">
+			<%= yield %>
+			<div id="footer">
+				<hr />
+				Copyrigyt by YAMADA, Yoshihiro, 2011-
+			</div>
+		</div>
+	</div>
+</body>
+</html>
